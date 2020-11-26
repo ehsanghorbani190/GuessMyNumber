@@ -34,6 +34,8 @@ check.addEventListener('click', () => {
 		message.innerHTML = '3 Times Wrong :D </br> Number Changed XD';
 		document.getElementsByTagName('body')[0].style.backgroundColor = '#c0392b';
 		num = Math.floor(Math.random() * 21) + 1;
+		live = 3;
+		lives.innerHTML = live;
 	}
 });
 reset.addEventListener('click', () => {
